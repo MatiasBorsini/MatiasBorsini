@@ -70,7 +70,7 @@ class Svg:
     def text(self, x, y, value, size=14, weight=400, mono=False, fill="ink", spacing=0):
         face = ("M", 400) if mono else ("G", weight); self.used[face] |= set(value)
         spacing_attr = f' letter-spacing="{spacing}em"' if spacing else ""
-        return f'<text x="{x:.2f}" y="{y:.2f}" font-family="{face[0]}" font-weight="{face[1]}" font-size="{size}" fill="{self.theme.get(fill, fill)}" xml:space="preserve"{spacing_attr}>{html.escape(value)}</text>'
+        return f'<text x="{x:.2f}" y="{y:.2f}" font-family="{face[0]}, Arial, sans-serif" font-weight="{face[1]}" font-size="{size}" fill="{self.theme.get(fill, fill)}" xml:space="preserve"{spacing_attr}>{html.escape(value)}</text>'
     def paper(self, width, height):
         t = self.theme
         self.defs.extend([
@@ -89,9 +89,9 @@ def render_stack(theme):
     width, row_h, top = 840, 48, 118
     height = top + len(STACK) * row_h + 44
     names = ", ".join(name for _, tools in STACK for name, _ in tools)
-    c = Svg(width, height, theme, f"Tecnologias: {names}.")
+    c = Svg(width, height, theme, f"Tecnologías: {names}.")
     t = c.theme; c.paper(width, height)
-    c.parts += [c.text(40, 54, "TECNOLOGIAS", 11, 500, fill="muted", spacing=.16), c.text(40, 88, "Tecnologias", 28, 700, spacing=-.01)]
+    c.parts += [c.text(40, 54, "TECNOLOGÍAS", 11, 500, fill="muted", spacing=.16), c.text(40, 88, "Tecnologías", 28, 700, spacing=-.01)]
     if theme == "dark":
         c.defs.append('<filter id="invert-dark"><feColorMatrix type="matrix" values="0 0 0 0 0.753 0 0 0 0 0.792 0 0 0 0 0.961 0 0 0 1 0"/></filter>')
     c.rules.append("@keyframes pop{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}")
