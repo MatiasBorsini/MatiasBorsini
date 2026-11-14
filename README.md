@@ -54,8 +54,10 @@ Currently, I’m a **Backend Development Intern at Goodapps**, contributing to A
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg" />
-  <img src="assets/stack-light.svg" alt="Technology stack: Backend — C sharp, .NET, REST APIs. Frontend — TypeScript, JavaScript, React, Next.js. Data — SQL, PostgreSQL, SQLite, Prisma, Supabase. Tools and integrations — Git, GitHub, Node.js, WPF, Gemini, Telegram." width="100%" />
+  <img src="assets/stack-light.svg" alt="Technology toolbox: C sharp, Java, JavaScript, TypeScript, HTML, CSS, XAML, .NET, WPF, React, Next.js, Node.js, SQL, SQLite, PostgreSQL, Prisma, Supabase, Google Gemini, Git, GitHub, Telegram Bot API and xUnit." width="100%" />
 </picture>
+
+<sub>Technology-stack visual inspired by <a href="https://github.com/aahil-khan/aahil-khan">Aahil Khan’s profile README</a>, adapted with my skills and project technologies. Technology logos: <a href="https://github.com/devicons/devicon">Devicon</a> and <a href="https://github.com/simple-icons/simple-icons">Simple Icons</a>.</sub>
 
 <br><br>
 
