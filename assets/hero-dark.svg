@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="390" viewBox="0 0 960 390" role="img" aria-labelledby="t d">
+<title id="t">Matías Borsini — Backend Developer</title><desc id="d">Backend developer focused on C sharp and .NET, building APIs and practical software solutions.</desc>
+<defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#3B3E3D" stroke-opacity=".34" stroke-width="1"/></pattern></defs>
+<rect x="2" y="2" width="956" height="386" rx="18" fill="#17191B" stroke="#F3F1E9" stroke-width="2"/>
+<rect x="2" y="2" width="956" height="386" rx="18" fill="url(#grid)" opacity=".52"/>
+<text x="42" y="48" fill="#B7B8B2" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3">SOFTWARE DEVELOPMENT / PROFILE 001</text>
+<text x="42" y="132" fill="#F3F1E9" font-family="Arial, sans-serif" font-size="59" font-weight="700" letter-spacing="-2">Matías Borsini</text>
+<text x="45" y="178" fill="#79D9C7" font-family="Arial, sans-serif" font-size="26" font-weight="700">Backend Developer</text>
+<text x="45" y="218" fill="#B7B8B2" font-family="Arial, sans-serif" font-size="19">C#  ·  .NET  ·  REST APIs  ·  SQL</text>
+<line x1="45" y1="254" x2="550" y2="254" stroke="#3B3E3D" stroke-width="2"/>
+<text x="45" y="290" fill="#F3F1E9" font-family="Arial, sans-serif" font-size="16" font-weight="700">CURRENTLY</text>
+<text x="45" y="318" fill="#B7B8B2" font-family="Arial, sans-serif" font-size="17">Backend Development Intern · Goodapps</text>
+<text x="45" y="348" fill="#B7B8B2" font-family="Arial, sans-serif" font-size="15">Final stage · Software Development degree</text>
+<rect x="620" y="66" width="292" height="260" rx="14" fill="#222625" stroke="#F3F1E9" stroke-width="2"/>
+<path d="M620 105H912" stroke="#3B3E3D" stroke-width="2"/>
+<circle cx="644" cy="86" r="5" fill="#79D9C7"/><circle cx="663" cy="86" r="5" fill="#3B3E3D"/><circle cx="682" cy="86" r="5" fill="#3B3E3D"/>
+<text x="704" y="91" fill="#B7B8B2" font-family="monospace" font-size="12">backend.cs</text>
+<text x="646" y="142" fill="#B7B8B2" font-family="monospace" font-size="13">01</text><text x="675" y="142" fill="#79D9C7" font-family="monospace" font-size="14">public class</text><text x="785" y="142" fill="#D6D8D1" font-family="monospace" font-size="14">Developer</text>
+<text x="646" y="173" fill="#B7B8B2" font-family="monospace" font-size="13">02</text><text x="675" y="173" fill="#D6D8D1" font-family="monospace" font-size="14">{</text>
+<text x="646" y="204" fill="#B7B8B2" font-family="monospace" font-size="13">03</text><text x="690" y="204" fill="#79D9C7" font-family="monospace" font-size="14">Build</text><text x="740" y="204" fill="#D6D8D1" font-family="monospace" font-size="14">(solutions);</text>
+<text x="646" y="235" fill="#B7B8B2" font-family="monospace" font-size="13">04</text><text x="690" y="235" fill="#79D9C7" font-family="monospace" font-size="14">Test</text><text x="735" y="235" fill="#D6D8D1" font-family="monospace" font-size="14">(carefully);</text>
+<text x="646" y="266" fill="#B7B8B2" font-family="monospace" font-size="13">05</text><text x="690" y="266" fill="#79D9C7" font-family="monospace" font-size="14">Ship</text><text x="735" y="266" fill="#D6D8D1" font-family="monospace" font-size="14">(reliably);</text>
+<text x="646" y="297" fill="#B7B8B2" font-family="monospace" font-size="13">06</text><text x="675" y="297" fill="#D6D8D1" font-family="monospace" font-size="14">}</text><rect x="687" y="287" width="8" height="16" fill="#79D9C7"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
+</svg>
