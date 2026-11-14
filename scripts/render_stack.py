@@ -23,12 +23,12 @@ THEMES = {
     "dark": dict(paper="#1A1B26", glow="rgba(192,202,245,0.05)", grid="rgba(192,202,245,0.07)", surface="#16161E", ink="#C0CAF5", muted="#A9B1D6", subtle="#949EC8", accent="#E0AF68", border="#C0CAF5"),
 }
 STACK = [
-    ("Languages & Markup", [("C#", "csharp"), ("Java", "java"), ("JavaScript", "javascript"), ("TypeScript", "typescript"), ("HTML", "html5"), ("CSS", "css3"), ("XAML", None)]),
-    ("Frameworks & Runtimes", [(".NET", "dotnet"), ("WPF", None), ("React", "react"), ("Next.js", "nextjs"), ("Node.js", "nodejs")]),
-    ("Databases", [("SQL", None), ("SQLite", "sqlite"), ("PostgreSQL", "postgresql")]),
-    ("Data & AI", [("Prisma", "prisma"), ("Supabase", "supabase"), ("Google Gemini", "gemini")]),
-    ("Tools & Integrations", [("Git", "git"), ("GitHub", "github"), ("Telegram Bot API", "telegram")]),
-    ("Testing", [("xUnit", None)]),
+    ("Lenguajes", [("C#", "csharp"), ("Java", "java"), ("JavaScript", "javascript"), ("TypeScript", "typescript"), ("HTML", "html5"), ("CSS", "css3"), ("XAML", None)]),
+    ("Frameworks", [(".NET", "dotnet"), ("WPF", None), ("React", "react"), ("Next.js", "nextjs"), ("Node.js", "nodejs")]),
+    ("Bases de datos", [("SQL", None), ("SQLite", "sqlite"), ("PostgreSQL", "postgresql")]),
+    ("Datos e IA", [("Prisma", "prisma"), ("Supabase", "supabase"), ("Google Gemini", "gemini")]),
+    ("Herramientas", [("Git", "git"), ("GitHub", "github"), ("Telegram Bot API", "telegram")]),
+    ("Pruebas", [("xUnit", None)]),
 ]
 DARK_MARKS = {"nextjs", "github"}
 NAP = [
@@ -89,9 +89,9 @@ def render_stack(theme):
     width, row_h, top = 840, 48, 118
     height = top + len(STACK) * row_h + 44
     names = ", ".join(name for _, tools in STACK for name, _ in tools)
-    c = Svg(width, height, theme, f"What I build with: {names}.")
+    c = Svg(width, height, theme, f"Tecnologias: {names}.")
     t = c.theme; c.paper(width, height)
-    c.parts += [c.text(40, 54, "TOOLBOX", 11, 500, fill="muted", spacing=.16), c.text(40, 88, "What I build with", 28, 700, spacing=-.01)]
+    c.parts += [c.text(40, 54, "TECNOLOGIAS", 11, 500, fill="muted", spacing=.16), c.text(40, 88, "Tecnologias", 28, 700, spacing=-.01)]
     if theme == "dark":
         c.defs.append('<filter id="invert-dark"><feColorMatrix type="matrix" values="0 0 0 0 0.753 0 0 0 0 0.792 0 0 0 0 0.961 0 0 0 1 0"/></filter>')
     c.rules.append("@keyframes pop{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}")

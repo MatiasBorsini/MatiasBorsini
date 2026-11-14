@@ -1,8 +1,8 @@
-# Technology logo assets
+# Logotipos de tecnologías
 
-Source SVGs embedded in the profile's technology-stack illustrations.
+Archivos SVG utilizados en las ilustraciones de tecnologías del perfil.
 
-- Most technology marks are from [Devicon](https://github.com/devicons/devicon) (MIT).
-- Google Gemini and Telegram marks are from [Simple Icons](https://github.com/simple-icons/simple-icons) (CC0 1.0).
+- La mayoría de los logotipos provienen de [Devicon](https://github.com/devicons/devicon) (licencia MIT).
+- Los logotipos de Google Gemini y Telegram provienen de [Simple Icons](https://github.com/simple-icons/simple-icons) (licencia CC0 1.0).
 
-The visual approach is inspired by the technology section in [Aahil Khan's profile README](https://github.com/aahil-khan/aahil-khan), adapted to Matías Borsini's own technologies and categories.
+El diseño visual toma como referencia la sección de tecnologías del [perfil de Aahil Khan](https://github.com/aahil-khan/aahil-khan), adaptada a las herramientas y proyectos de Matías Borsini.
